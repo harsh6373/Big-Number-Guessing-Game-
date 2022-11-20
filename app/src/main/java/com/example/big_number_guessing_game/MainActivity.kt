@@ -58,7 +58,130 @@ class MainActivity : AppCompatActivity() {
 
 
         txt_score.text = counter.toString()
+        when (counter) {
 
+            100 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            200 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            300 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            400 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            500 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            600 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+
+            }
+            700 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            800 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            900 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+            1000 -> {
+                CommonConfetti.rainingConfetti(
+                    constraintlayout,
+                    intArrayOf(Color.RED, Color.GREEN, Color.BLUE)
+                ).oneShot()
+                CommonConfetti.explosion(
+                    constraintlayout,
+                    centerX,
+                    centerY,
+                    intArrayOf(Color.YELLOW, Color.MAGENTA, Color.BLACK)
+                ).oneShot()
+            }
+        }
     }
 
     private fun assignnewnumbers() {
